@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 const Leads = require('./Leads.js');
-
+const port = process.env.PORT || 5000
 
 mongoose.connect('mongodb+srv://root:teste321@cluster0.ko5yu.mongodb.net/dankicode?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>{
     console.log("Conectado com sucesso!")
@@ -45,6 +45,6 @@ app.post('/form', (req, res)=>{
 })
 
 
-app.listen(5000, ()=>{
+app.listen(port, ()=>{
     console.log('server rodando')
 })
