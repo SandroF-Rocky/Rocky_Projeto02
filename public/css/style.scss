@@ -29,14 +29,13 @@ html, body{
 body{
     overflow-x: hidden;
 }
+
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: #869791  !important;
     color: #FFF;
     text-decoration: none;
 }
-span{
-    cursor: none;
-}
+
 header{
     height: 107vh;
     width: 100%;
