@@ -1,21 +1,27 @@
 module.exports = function(grunt){
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        uglify: {
-            options: {
-                manage: false
-            },
+        cssmin: {
             my_target: {
-                files: {
-                    'build/main.min.js': ['build/script.js']
-                }
+                files: [{
+                    expand: true,
+                    cwd: 'public/css/',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'css/',
+                    ext: 'min.css'
+                }]
             }
         },
+
+        
+
+
+
         
     });
 
 
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.registerTask('default', 'concat min cssmin');
 }
