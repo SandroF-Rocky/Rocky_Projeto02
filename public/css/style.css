@@ -1233,6 +1233,7 @@ footer ul li a {
   section.competence .ul_container {
     width: 80%;
     height: 330px;
+    max-width: 1100px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
