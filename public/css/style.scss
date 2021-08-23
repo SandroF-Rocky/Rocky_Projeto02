@@ -494,12 +494,13 @@ section.apto{
     position: relative;
     padding: 60px 0px;
     .apto_container{
-        height: 400px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         .text_container{
-            width: 500px;
+            max-width: 500px;
+            width: 80%;
             margin: 0 auto;
             .h1{
                 @extend .var_h1;
@@ -1141,6 +1142,7 @@ footer{
         background: none;
         background-color: #262626;
         height: 100vh;
+        max-height: 790px;
         position: relative;
         .apto_container{
             width: 60%;

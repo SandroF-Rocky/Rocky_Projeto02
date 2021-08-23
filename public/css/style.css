@@ -787,7 +787,7 @@ section.apto {
 }
 
 section.apto .apto_container {
-  height: 400px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,7 +801,8 @@ section.apto .apto_container {
 }
 
 section.apto .apto_container .text_container {
-  width: 500px;
+  max-width: 500px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -1586,6 +1587,7 @@ footer ul li a {
     background: none;
     background-color: #262626;
     height: 100vh;
+    max-height: 790px;
     position: relative;
   }
   section.apto .apto_container {
