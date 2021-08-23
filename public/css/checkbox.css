@@ -40,9 +40,9 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	background-position: 0 -15px;
 }
 
-.css-label{
+/* .css-label{
 	background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
-}
+} */
 
 /*specific classes related to Checkbox skins*/
 
@@ -69,7 +69,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .dark-plus-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-plus-orange.png);}
 .dark-check-cyan{background-image:url(http://csscheckbox.com/checkboxes/dark-check-cyan.png);}
 .dark-check-green{background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);}
-.dark-check-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-check-orange.png);}
+.dark-check-orange{background-image:url(../imagens/orange_checkbox.png);}
 
 
 .depressed-lite-small{background-image:url(http://csscheckbox.com/checkboxes/depressed-lite-small.png);}

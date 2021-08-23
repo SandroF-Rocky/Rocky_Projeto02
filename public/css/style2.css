@@ -1863,7 +1863,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 }
 
 .css-label{
-	background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+	background-image:url(../images/orange_check.png);
 }
 
 /*specific classes related to Checkbox skins*/
@@ -1891,7 +1891,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .dark-plus-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-plus-orange.png);}
 .dark-check-cyan{background-image:url(http://csscheckbox.com/checkboxes/dark-check-cyan.png);}
 .dark-check-green{background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);}
-.dark-check-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-check-orange.png);}
+.dark-check-orange{background-image:url(../images/orange_check.png);}
 
 
 .depressed-lite-small{background-image:url(http://csscheckbox.com/checkboxes/depressed-lite-small.png);}
