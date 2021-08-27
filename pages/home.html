@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/style.min.css">
     <link rel="stylesheet" href="../public/css/checkbox.css">
     <link rel="shortcut icon" href="../public/imagens/logo.png" type="image/x-icon">
@@ -83,11 +84,11 @@
     <header>
         <div class="header_container">
             <div class="logo"></div>
-            <div class="header_text">
+            <div data-aos="fade-down" data-aos-duration="1300" class="header_text">
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit debitis rem </p>
             </div>
-            <div class="header_buttons">
+            <div data-aos="fade-up" data-aos-duration="1300" class="header_buttons">
                 <div style="cursor: pointer;" class="interesse_button header_button">
                     <span>TENHO INTERESSE</span>
                 </div>
@@ -101,7 +102,7 @@
     <section class="head">
         <div class="head_wrapper">
 
-            <div class="head_text text_container">
+            <div data-aos="fade-right" data-aos-duration="1300" class="head_text text_container">
                 <h1 class="h1">Sem <br> clientes?</h1>
                 <p>Esta seção visa explicar resumidamente o curso.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odio nobis, pariatur libero suscipit veritatis dicta numquam veniam asperiores vero saepe cum excepturi magni voluptatum cum excepturi magni voluptatum excepturi magni voluptatum cum excepturi magni voluptatum</p>
@@ -114,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="heads_container">
+            <div data-aos="fade-left" data-aos-duration="1300" class="heads_container">
                 <div class="head_single">
                     <div class="head_pic">
                         <img loading= "lazy" src="../public/imagens/head_symbol.png" alt="head_symbol">
@@ -334,7 +335,7 @@
         <div class="wrapper">
 
 
-            <div class="metodologia_text text_container">
+            <div data-aos="fade-right" data-aos-duration="1300" class="metodologia_text text_container">
                 <h1 class="h1">
                     Capacidade de aprender
                 </h1>
@@ -350,7 +351,7 @@
                 </div>
                 
             </div>
-            <div class="metodologias_container">
+            <div data-aos="fade-left" data-aos-duration="1300" class="metodologias_container">
                 <div class="metodologia_single">
                     <p>METODOLOGIA 1</p>
                     <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem cum debitis cumque numquam quos, fuga sed quidem?</P>
@@ -415,6 +416,10 @@
     <script src="../public/main.min.js"></script>
     <script src="../index.js"></script>
     <script src="../models.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

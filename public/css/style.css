@@ -244,7 +244,7 @@ section.head .head_wrapper {
 section.head .head_text {
   margin: 0 auto;
   color: #fff;
-  width: 400px;
+  max-width: 400px;
 }
 
 section.head .head_text .header_buttons_desktop_heads {
