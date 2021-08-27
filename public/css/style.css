@@ -638,14 +638,15 @@ section.teacher .teacher_single {
 }
 
 section.teacher .teacher_single .teacher_pic_container {
-  background-image: url("../imagens/teacher.png");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0 auto;
   width: 85%;
   max-width: 328px;
   height: 250px;
+}
+
+section.teacher .teacher_single .teacher_pic_container img {
+  height: 100%;
+  width: 100%;
 }
 
 section.teacher .teacher_single .teacher_text {

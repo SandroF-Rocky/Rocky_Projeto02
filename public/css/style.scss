@@ -377,11 +377,14 @@ section.teacher{
         padding: 30px 0;
         margin-bottom: 30px;
         .teacher_pic_container{
-            @include BackgroundImg('teacher.png');
             margin: 0 auto;
             width: 85%;
             max-width: 328px;
             height: 250px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
         }
         .teacher_text{
             width: 85%;
